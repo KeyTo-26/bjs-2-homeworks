@@ -11,7 +11,7 @@ function solveEquation(a, b, c) {
     arr = [(-b + Math.sqrt(d)) / (2 * a), (-b - Math.sqrt(d)) / (2 * a)];
 }
 
-return arr;
+  return arr;
 }
 
 function calculateTotalMortgage(percent, contribution, amount, countMonths) {
